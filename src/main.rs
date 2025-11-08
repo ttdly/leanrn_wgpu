@@ -4,6 +4,7 @@ use winit::error::EventLoopError;
 use winit::event_loop::{ControlFlow, EventLoop};
 
 pub mod app;
+pub mod wgpu_ctx;
 
 pub fn counter() {}
 
